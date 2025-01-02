@@ -11,7 +11,7 @@ body{
 }
 h1{
     background: #53FF6F;
-    background: linear-gradient(to right, #53FF6F 0%, #43A2FF 39%);
+    background: linear-gradient(to right, #00ffa2f3 0%, #43A2FF 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
