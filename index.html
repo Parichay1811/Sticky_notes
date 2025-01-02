@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sticky Notes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="note-creator">
-            <textarea id="note-input" placeholder="Write a note here"></textarea>
-            <input type="color" id="color-picker" value="#00ff00">
-            <button id="add-note" class="add-note-btn">Add note</button>
-        </div>
-        <div class="notes-section">
-            <h2>Your Notes</h2>
-            <div id="notes-container"></div>
-        </div>
+    <h1>Sticky notes <span><i class="fa-solid fa-note-sticky"></i></span></h1>
+    <div id="app">
+        <button class="add-note" type="button">+</button> 
     </div>
-    
-    <script src="script.js"></script>
+    <input type="color" class="color-picker">
+
+
+    <script src="./script.js" defer></script>
 </body>
 </html>
