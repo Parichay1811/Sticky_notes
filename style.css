@@ -64,3 +64,23 @@ h1 i{
     font-size: 40px;
     /* color: rgb(195, 189, 38); */
 }
+@media screen and (max-width: 1000px){
+    #app{
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+    
+}
+@media screen and (max-width: 800px){
+    #app{
+        grid-template-columns: repeat(auto-fill, 250px);
+    }
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 40px;
+    }
+    #app{
+        grid-template-columns: repeat(auto-fill, 250px);
+    }
+    
+}
